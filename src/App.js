@@ -12,6 +12,7 @@ export default class App extends PureComponent {
     };
   }
 
+
   handleSearchChange = event => {
     this.setState({
       filteredEmoji: filterEmoji(event.target.value, 20)
